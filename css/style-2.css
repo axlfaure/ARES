@@ -1,0 +1,26 @@
+:root{
+	--main-bg-color: white;
+	--main-color: #9fc512;
+	--second-color: #383838;
+	--hover-color: lightgray;
+}
+.mentions-legales{
+    background-color: var(--second-color);
+}
+article{
+}
+.text-m{
+    color: white;
+    text-align: center;
+    padding: 0 40px;
+}
+section{
+    display: grid;
+    place-items: center;
+    height: 60vh;
+}
+@media screen and (min-width: 960px) {
+    .article{
+        margin-top: 80px;
+    }
+}
